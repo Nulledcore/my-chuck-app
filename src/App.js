@@ -4,7 +4,7 @@ import Chuck from "./components/Chuck";
 function App() {
   return (
     <div>
-      <Chuck/>
+      <Chuck />
     </div>
   );
 }
