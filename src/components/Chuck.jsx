@@ -33,10 +33,9 @@ class Chuck extends Component {
                 <div>
                     <header className="App-header">
                         <h1>Hello World from Chuck</h1>
-                        <h3>{this.state.fact}</h3>
+                        <div className="reqbox"><h2>{this.state.fact}</h2></div>
                         <Button color="primary" variant="contained" onClick={refreshPage}>Get a new fact!</Button>
                     </header>
-                    
                 </div>
                 <CssBaseline />
             </ThemeProvider>
