@@ -14,7 +14,7 @@ const theme = createMuiTheme({
 });
 
 function refreshPage() {
-    window.location.reload(false);
+    window.location.reload();
 }
 
 class Chuck extends Component {
